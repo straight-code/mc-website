@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+body {
+  background: #F3F4F6;
+}
+
+.hidden {
+  display: none;
+}
+
+nav {
+  padding: 20px 0;
+  background: #7512c5;
+}
+nav .nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav .nav-content img.logo {
+  max-height: 30px;
+}
+nav .nav-content .nav.nav-pills {
+  font-size: smaller;
+}
+nav .nav-content .nav.nav-pills.main-nav {
+  flex: 1;
+  justify-content: center;
+}
+nav .nav-content .nav.nav-pills a.nav-link {
+  color: #efefef;
+  padding: 5px 10px;
+  margin: 0 5px;
+  transition: background 0.3s;
+}
+nav .nav-content .nav.nav-pills a.nav-link.active, nav .nav-content .nav.nav-pills a.nav-link:hover {
+  background: none;
+  text-decoration: underline;
+}
+nav .nav-content .nav.nav-pills a.nav-link.background {
+  text-decoration: none;
+  background: #353b48;
+  color: #FFF;
+}
+nav .nav-content .nav.nav-pills a.nav-link.background:hover {
+  background: #606b83;
+}
+
+header {
+  background: #8c28df;
+  background-image: url("https://i.ibb.co/cFK118s/pngegg-1.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+header .header-content {
+  padding: 60px 0;
+  max-width: 640px;
+}
+header .header-content h1 {
+  color: #FFF;
+  font-size: 42px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+header .header-content p {
+  font-size: 16px;
+  color: #cccccc;
+}
+
+.post-header-announcement {
+  background: #FFF;
+  margin-top: -30px;
+  padding: 20px;
+  border-left: 5px solid #44bd32;
+}
+.post-header-announcement h3 {
+  font-size: 16px;
+  color: #8c28df;
+}
+.post-header-announcement p {
+  margin: 0;
+  padding-right: 100px;
+  color: black;
+}
+.post-header-announcement img.emblem {
+  opacity: 0.1;
+  height: 50px;
+  float: right;
+}
